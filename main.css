@@ -1,4 +1,11 @@
-﻿.bg-hero-home {
+.bg-hero-auu {
+    background-image: url("./img/Ragazzi.png");
+    background-position: center bottom -80px;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+}
+
+.bg-hero-home {
     background-image: linear-gradient(#0066cc,#087fc6);
 }
 
@@ -9,24 +16,24 @@
 @media (min-width: 992px) {
 
         .bg-destinatari {
-            background-image: url("./img/Padre.svg");
-            background-position: right -30px top 100px;
+            background-image: url("./img/Destinatari.png");
+            background-position: right -80px top 100px;
             background-repeat: no-repeat;
-            background-size: 400px;
+            background-size: 600px;
         }
 
         .bg-importi {
-            background-image: url("./img/Importo assegno.svg");
-            background-position: right -30px top 100px;
+            background-image: url("./img/Importi.png");
+            background-position: right -80px top 180px;
             background-repeat: no-repeat;
-            background-size: 400px;
+            background-size: 600px;
         }
 
         .bg-domanda {
-            background-image: url("./img/Conferma.svg");
+            background-image: url("./img/Auu.png");
             background-position: right -30px top 100px;
             background-repeat: no-repeat;
-            background-size: 400px;
+            background-size: 550px;
         }
 
         .bg-futuro {
