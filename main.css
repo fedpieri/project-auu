@@ -1,8 +1,30 @@
+﻿@font-face {
+    font-family: "Titillium Web";
+    src: url("./fonts/TitilliumWeb-Regular.woff") format("woff");
+    src: url("./fonts/TitilliumWeb-Semibold.woff") format("woff");
+    src: url("./fonts/TitilliumWeb-Bold.woff") format("woff");
+    src: url("./fonts/TitilliumWeb-Black.woff") format("woff");
+    src: url("./fonts/TitilliumWeb-ExtraLight.woff") format("woff");
+    src: url("./fonts/TitilliumWeb-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url("./fonts/Lora-Regular.woff") format("woff");
+    src: url("./fonts/Lora-Bold.woff") format("woff");
+}
+
 .bg-hero-auu {
-    background-image: url("./img/Ragazzi.png");
-    background-position: center bottom -80px;
-    background-repeat: no-repeat;
-    background-size: 1300px;
+    background-color: #002466;
+}
+
+.wave {display:block;
+       height: 52px;
+       background-image: url("./svg/wave.svg");
+       background-position: center center;
+       background-size: 100%;
+       background-color: #fff;
+
 }
 
 .bg-hero-home {
@@ -14,6 +36,13 @@
 }
 
 @media (min-width: 992px) {
+
+        .bg-informazioni {
+        background-image: url("./img/Auu.png");
+        background-position: right -30px top 100px;
+        background-repeat: no-repeat;
+        background-size: 500px;
+        }
 
         .bg-destinatari {
             background-image: url("./img/Destinatari.png");
@@ -29,12 +58,6 @@
             background-size: 600px;
         }
 
-        .bg-domanda {
-            background-image: url("./img/Auu.png");
-            background-position: right -30px top 100px;
-            background-repeat: no-repeat;
-            background-size: 550px;
-        }
 
         .bg-futuro {
         background-image: url("./img/Futuro.svg");
