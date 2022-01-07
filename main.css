@@ -1,17 +1,11 @@
-﻿@font-face {
-    font-family: "Titillium Web";
-    src: url("./fonts/TitilliumWeb-Regular.woff") format("woff");
-    src: url("./fonts/TitilliumWeb-Semibold.woff") format("woff");
-    src: url("./fonts/TitilliumWeb-Bold.woff") format("woff");
-    src: url("./fonts/TitilliumWeb-Black.woff") format("woff");
-    src: url("./fonts/TitilliumWeb-ExtraLight.woff") format("woff");
-    src: url("./fonts/TitilliumWeb-Light.woff") format("woff");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 @font-face {
-    font-family: "Lora";
-    src: url("./fonts/Lora-Regular.woff") format("woff");
-    src: url("./fonts/Lora-Bold.woff") format("woff");
+    font-family: 'Lora', serif;
 }
 
 .bg-hero-auu {
