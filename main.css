@@ -1,0 +1,46 @@
+﻿.bg-hero-home {
+    background-image: linear-gradient(#0066cc,#087fc6);
+}
+
+.notefooter {color:#d2d2d2;
+             font-size:12px;
+}
+
+@media (min-width: 992px) {
+
+        .bg-destinatari {
+            background-image: url("./img/Padre.svg");
+            background-position: right -30px top 100px;
+            background-repeat: no-repeat;
+            background-size: 400px;
+        }
+
+        .bg-importi {
+            background-image: url("./img/Importo assegno.svg");
+            background-position: right -30px top 100px;
+            background-repeat: no-repeat;
+            background-size: 400px;
+        }
+
+        .bg-domanda {
+            background-image: url("./img/Conferma.svg");
+            background-position: right -30px top 100px;
+            background-repeat: no-repeat;
+            background-size: 400px;
+        }
+
+        .bg-futuro {
+        background-image: url("./img/Futuro.svg");
+        background-position: right -30px top 220px;
+        background-repeat: no-repeat;
+        background-size: 500px;
+        }
+
+        .bg-gdpr {
+            background-image: url("./img/gdpr.svg");
+            background-position: right -30px top 100px;
+            background-repeat: no-repeat;
+            background-size: 400px;
+        }
+    }
+
